@@ -9,7 +9,10 @@ void setup(){
 }
 
 void loop(){
-  colorRGB(random(0,255),random(0,255),random(0,255));
+  int redColor=random(0,255);
+  int greenColor=random(0,255);
+  int blueColor=random(0,255);
+  colorRGB(redColor,greenColor,blueColor);
   delay(1000);
 }
 void colorRGB(int red, int green, int blue){
